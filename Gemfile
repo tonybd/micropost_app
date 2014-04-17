@@ -39,6 +39,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 group :test do
 	gem 'capybara'
 	gem 'factory_girl_rails'
+	gem 'cucumber-rails'
+	gem 'database_cleaner'
 end
 
 
